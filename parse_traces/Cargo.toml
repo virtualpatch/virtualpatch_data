@@ -1,0 +1,16 @@
+[package]
+name = "parse_traces"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.4.2"
+lazy_static = "1.4.0"
+itertools = "0.9.0"
+csv = "1.1.4"
+clap = { version = "3.1.7", features = ["derive"] }
+serde = "1.0.117"
+serde_yaml = "0.8.14"
+indicatif = "0.15.0"
