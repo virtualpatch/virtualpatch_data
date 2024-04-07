@@ -10,8 +10,6 @@ data
 and extract the delay timings
 - **patch_apis**: source code of the library that can be used to write patches for
 VirtualPatch, including API documentation
-- **virtualpatch_evaluation**: exploits and security patches implementation for
-the CVEs used in the evaluation
 - **evaluation**: source code of the exploits and security patches used for the
 evaluation of VirtualPatch
 - **container_generator**: code that can be used to generate the secure containers
